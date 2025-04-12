@@ -1,0 +1,60 @@
+.user-stores-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.stores-table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.table-header {
+  background: #f4f4f4;
+  font-weight: bold;
+}
+
+.table-row {
+  background: #fafafa;
+  transition: background 0.3s;
+}
+
+.table-row:hover {
+  background: #f0f0f0;
+}
+
+.rating-select {
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  background: #fff;
+}

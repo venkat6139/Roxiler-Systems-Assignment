@@ -1,0 +1,31 @@
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.table-filter {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.custom-table th, .custom-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.custom-table th {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
